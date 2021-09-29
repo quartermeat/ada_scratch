@@ -4,6 +4,6 @@ project Scratch is
     for Source_Dirs use ("src");
 
     package Compiler is
-        for Default_Switches ("Ada") use ("-g");
+        for Default_Switches ("Ada") use ("-g O0");
     end Compiler;
 end Scratch;
